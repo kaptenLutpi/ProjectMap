@@ -51,7 +51,7 @@ folium.GeoJson(
 
 folium.GeoJson(
     "data2.geojson", # Mengacu pada file GeoJSON
-    name="Jumlah Pencairan Tanggal 2025-07-15 s/d 2025-07-28",
+    name="Jumlah Reject Slik 2025-07-01 s/d 2025-07-14",
     style_function=lambda x: {
         "fillColor": colormap(x["properties"]["nilai"]) if x["properties"]["nilai"] is not None else "#d3d3d3",
         "color": "black",
