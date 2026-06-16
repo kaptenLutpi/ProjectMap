@@ -226,7 +226,7 @@ header_html = """
     text-align: center;
 ">
     <h1 style="margin: 0; font-family: 'Segoe UI', Arial; font-size: 24px; color: #333; font-weight: bold;">
-        MAP PENCAIRAN MARET 2026
+        MAP PENCAIRAN 01 - 15 Juni 2026
     </h1>
 </div>
 """
@@ -317,4 +317,4 @@ m.get_root().html.add_child(folium.Element(chart_script))
 
 # === 12. Save ===
 m.save("index.html")
-print("Sukses!1")
+print("Sukses!")
